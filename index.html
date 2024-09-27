@@ -6,6 +6,31 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Welcome to github account</h2>
+    <table border="1" width="100%">
+        <thead>
+            <tr>
+                <td colspan="2">This is my header</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <!-- Correcting target for iframe to match the iframe name -->
+                    <a href="login.html" target="myframe">Login</a>
+                    <br><br>
+                    <a href="register.html" target="myframe">Register</a>
+                </td>
+                <td>
+                    <!-- Correcting iframe name to match the target in the links -->
+                    <iframe name="myframe" height="300" width="1200" src="https://tse4.mm.bing.net/th?id=OIP.wG56iePVqCH0HG7ne3svHgHaDQ&pid=Api&P=0&h=180" frameborder="0"></iframe>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">This is the foot</td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>
