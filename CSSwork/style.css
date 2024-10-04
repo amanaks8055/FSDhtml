@@ -1,0 +1,28 @@
+body{
+    background: #82cdcb;
+}
+
+/*div{
+    background: #f9f043;
+}*/
+ .container{
+    background: #cfacce;
+    height: auto;
+    border: 2px solid rgb(218, 237, 8);
+    margin-top: 50px;
+ }
+ /* .child1{
+    background: #99fe94;
+    color: wheat;
+    height: 300px;
+    border: 1px dotted blue;
+    width: 300px;
+    margin-left: 500px;
+    padding: 100px 50px 40px;
+    box-sizing: border-box;
+    
+    
+ } */
+  div p{
+    background: yellow;
+  }
